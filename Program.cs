@@ -6,7 +6,22 @@ namespace ConsoleApp3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.Write("enter your Name: ");
+            int nam = Console.ReadLine();
+            Console.Write("enter your password:  ");
+            int pass = Console.ReadLine();
+
+
+            
+            if (nam == "haider" || pass == "1234")
+            {
+                Console.Write("Welcome " + nam);
+
+            }
+            else
+            {
+                Console.WriteLine("your password or user name is not currecct please try agean: ");
+            }
         }
     }
 }
