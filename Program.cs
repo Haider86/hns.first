@@ -18,7 +18,7 @@ namespace ConsoleApp3
                 Console.Write("Welcome " + nam);
 
             }
-            else
+            else//kkofkokoks
             {
                 Console.WriteLine("your password or user name is not currecct please try agean: ");
             }
